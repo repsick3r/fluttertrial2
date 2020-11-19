@@ -41,7 +41,8 @@ class MyPanel extends StatelessWidget {
       ),
       body: SlidingUpPanel(
         panel: Center(
-          child: Text("This is the sliding Widget"),
+          //child: Text("This is the sliding Widget"),
+           new InkWell(child: new Text('Data'), onTap: () => launch('link')),
         ),
         collapsed: Container(
           // height: SizeConfig.screenHeight / 2,
